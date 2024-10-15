@@ -1,6 +1,3 @@
-t  = int(input())
-
-for _ in range(t):
+for _ in range(int(input())):
     word = input()
-    result = word[0] + word[-1]
-    print(result)
+    print(word[0] + word[-1])
